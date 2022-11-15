@@ -3,7 +3,6 @@ import React, { useState } from 'react'
 const ToTop = () => {
 
     const [panah, setPanah] = useState('panah')
-    const [top, setTop] = useState(0)
 
 
    document.addEventListener('scroll', () => {
