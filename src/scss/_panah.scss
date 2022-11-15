@@ -1,0 +1,30 @@
+.panah {
+    display: none;
+
+}
+
+.panah_active {
+    width: 30px;
+    height: 30px;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    animation: totop 1s infinite linear;
+    cursor: pointer;
+
+
+
+    img {
+        width: 100%;
+    }
+}
+
+@keyframes totop {
+    0% {
+        transform: translateY(0);
+    } 50% {
+        transform: translateY(10px);
+    } 100% {
+        transform: translateY(0);
+    }
+}

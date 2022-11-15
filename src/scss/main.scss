@@ -1,0 +1,31 @@
+@import 'reset';
+@import 'variabels';
+@import 'navbar';
+@import 'hero';
+@import 'about';
+@import 'projects';
+@import 'teknologi';
+@import 'footer';
+@import 'panah';
+
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: $main-font;
+}
+
+
+.container {
+    width: calc(100% - 10%);
+    margin: 0 auto;
+}
+
+.mySwiper {
+    padding-bottom: 30px !important;
+}
+
+
+
+

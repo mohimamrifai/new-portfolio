@@ -1,0 +1,85 @@
+.projects {
+    padding: 8em 3em;
+
+
+    h2 {
+        text-align: center;
+        font-weight: bold;
+        margin-bottom: 50px;
+        font-size: 24px;
+    }
+
+
+    .front_end, .backend, .fullstack {
+
+        h4 {
+            margin-bottom: 20px;
+            font-weight: bold;
+            color: $main-color;
+            font-size: 18px;
+        }
+
+    }
+
+    .backend, .fullstack {
+        margin-top: 50px;
+    }
+
+
+    .project {
+        width: 300px;
+        background-color: $putih;
+        padding: 12px;
+        border-radius: 10px;
+        transition: .3s;
+
+
+        img {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+
+        h6 {
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+
+        .project_buttons {
+            display: flex;
+            gap: 15px;
+
+
+            .project_buttons_details, .project_buttons_demo {
+                padding: 5px 7px;
+                background-color: #5B42F3;
+                color: $putih;
+                border-radius: 3px;
+                cursor: pointer;
+                
+            }
+        }
+    }
+
+    .project:hover {
+        background-color: orange;
+    }
+}
+
+
+@media (max-width: 1000px) {
+    .projects {
+        padding: 5em 1em;
+
+        .project {
+            width: 250px;
+            margin: 0 auto;
+        }
+
+
+        .front_end, .backend, .fullstack {
+            h4 {
+                margin-left: 20px;
+            }
+        }
+    }
+}
