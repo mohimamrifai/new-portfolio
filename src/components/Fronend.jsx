@@ -7,9 +7,11 @@ import "swiper/css/pagination";
 
 import { Pagination } from "swiper";
 
+import tokopalul from '../images/tokopalul.png'
+
 const Fronend = () => {
 
-    const judul = "Website pengelolaan sekolah";
+    const judul = "Website toko online | Toko palul";
 
 
     const arr = [1, 2, 3 ,4]
@@ -33,11 +35,11 @@ const Fronend = () => {
                 {arr.map((index) => (
                     <SwiperSlide key={index}>
                     <div className="project" >
-                        <img src="assets/login.png" alt="" />
+                        <img src={tokopalul} alt="" />
                         <h6>{judul.length > 50 ? judul.slice(0, 15) + "..." : judul }</h6>
                         <div className="project_buttons">
-                            <a href="/" className='project_buttons_details'>Details</a>
-                            <a href="/" className='project_buttons_demo'>Demo</a>
+                            <a target="_blank" rel="noreferrer" href="https://github.com/mohimamrifai/Ecommerce-frontend-toko-palul" className='project_buttons_details'>Source code</a>
+                            <a target="_blank" rel="noreferrer" href="https://toko-palul.netlify.app/" className='project_buttons_demo'>Demo</a>
                         </div>
                     </div>
                 </SwiperSlide>
