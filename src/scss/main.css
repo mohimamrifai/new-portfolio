@@ -164,7 +164,7 @@ a {
     padding: 5em 2em;
   }
   .hero h2 {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 }
 .about {
@@ -177,7 +177,7 @@ a {
   padding: 70px 0;
 }
 .about .about_col_satu {
-  max-width: 500px;
+  max-width: 400px;
 }
 .about .about_col_satu h5 {
   font-size: 20px;
@@ -190,17 +190,26 @@ a {
   letter-spacing: 1px;
   line-height: 20px;
 }
+.about .about_col_dua {
+  width: 400px;
+}
 
 @media (max-width: 1000px) {
   .about {
     flex-wrap: wrap-reverse;
     padding: 30px 0;
   }
+  .about .about_col_satu {
+    max-width: 300px;
+  }
   .about .about_col_satu h5 {
     text-align: center;
   }
   .about .about_col_satu p {
     text-align: justify;
+  }
+  .about .about_col_dua {
+    width: 300px;
   }
 }
 @media (max-width: 768px) {
@@ -213,6 +222,7 @@ a {
 }
 .projects {
   padding: 8em 3em;
+  width: 100%;
 }
 .projects h2 {
   text-align: center;

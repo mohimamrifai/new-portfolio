@@ -18,9 +18,10 @@ const About = () => {
               <lottie-player
                     autoplay
                     loop
+                    className="lotti"
                     mode="normal"
                     src="https://assets5.lottiefiles.com/packages/lf20_2glqweqs.json"
-                    style={{width: "450px"}}>
+                    >
                 </lottie-player>
         </AnimationOnScroll>
         </div>
