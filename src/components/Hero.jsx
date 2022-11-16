@@ -4,7 +4,6 @@ import { motion } from "framer-motion"
 
 const Hero = () => {
   return (
-    <div className='container'>
         <div className="hero">
             <motion.h5 animate={{x: 0}} initial={{x: -400}} transition={{ delay: 0.8 }}>Hello 😉, My name is</motion.h5>
             <motion.h2 animate={{x: 0}} initial={{x: -600}} transition={{ delay: 0.8 }}>Imam Rifai</motion.h2>
@@ -19,7 +18,6 @@ const Hero = () => {
                 </motion.div>
             </div>
         </div>
-    </div>
   )
 }
 

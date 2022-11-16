@@ -77,6 +77,7 @@ a {
 
 .hero {
   padding: 15em 5em;
+  width: 100%;
 }
 .hero h5 {
   font-size: 1.5rem;
@@ -273,6 +274,7 @@ a {
 .teknologi {
   background-color: #ddd;
   padding: 5em 0;
+  width: 100%;
 }
 .teknologi h5 {
   text-align: center;
@@ -336,6 +338,7 @@ a {
 }
 * {
   scroll-behavior: smooth;
+  box-sizing: border-box;
 }
 
 body {
